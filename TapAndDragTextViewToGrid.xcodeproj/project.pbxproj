@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E46C7D156136E800360ECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E46C7C156136E800360ECE /* UIKit.framework */; };
+		44E46C7F156136E800360ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E46C7E156136E800360ECE /* Foundation.framework */; };
+		44E46C81156136E800360ECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E46C80156136E800360ECE /* CoreGraphics.framework */; };
+		44E46C87156136E800360ECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44E46C85156136E800360ECE /* InfoPlist.strings */; };
+		44E46C89156136E800360ECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E46C88156136E800360ECE /* main.m */; };
+		44E46C8D156136E800360ECE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E46C8C156136E800360ECE /* AppDelegate.m */; };
+		44E46C90156136E800360ECE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E46C8E156136E800360ECE /* MainStoryboard.storyboard */; };
+		44E46C93156136E800360ECE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E46C92156136E800360ECE /* ViewController.m */; };
+		44E46C9B156136E800360ECE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E46C9A156136E800360ECE /* SenTestingKit.framework */; };
+		44E46C9C156136E800360ECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E46C7C156136E800360ECE /* UIKit.framework */; };
+		44E46C9D156136E800360ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E46C7E156136E800360ECE /* Foundation.framework */; };
+		44E46CA5156136E800360ECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44E46CA3156136E800360ECE /* InfoPlist.strings */; };
+		44E46CA8156136E800360ECE /* TapAndDragTextViewToGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E46CA7156136E800360ECE /* TapAndDragTextViewToGridTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44E46C9E156136E800360ECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E46C6F156136E800360ECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E46C77156136E800360ECE;
+			remoteInfo = TapAndDragTextViewToGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44E46C78156136E800360ECE /* TapAndDragTextViewToGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapAndDragTextViewToGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E46C7C156136E800360ECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44E46C7E156136E800360ECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44E46C80156136E800360ECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44E46C84156136E800360ECE /* TapAndDragTextViewToGrid-Info.plist */ = {isa = PBXFileReference; path = "TapAndDragTextViewToGrid-Info.plist"; sourceTree = "<group>"; };
+		44E46C86156136E800360ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44E46C88156136E800360ECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44E46C8A156136E800360ECE /* TapAndDragTextViewToGrid-Prefix.pch */ = {isa = PBXFileReference; path = "TapAndDragTextViewToGrid-Prefix.pch"; sourceTree = "<group>"; };
+		44E46C8B156136E800360ECE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		44E46C8C156136E800360ECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44E46C8F156136E800360ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		44E46C91156136E800360ECE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		44E46C92156136E800360ECE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44E46C99156136E800360ECE /* TapAndDragTextViewToGridTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapAndDragTextViewToGridTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E46C9A156136E800360ECE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		44E46CA2156136E800360ECE /* TapAndDragTextViewToGridTests-Info.plist */ = {isa = PBXFileReference; path = "TapAndDragTextViewToGridTests-Info.plist"; sourceTree = "<group>"; };
+		44E46CA4156136E800360ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44E46CA6156136E800360ECE /* TapAndDragTextViewToGridTests.h */ = {isa = PBXFileReference; path = TapAndDragTextViewToGridTests.h; sourceTree = "<group>"; };
+		44E46CA7156136E800360ECE /* TapAndDragTextViewToGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapAndDragTextViewToGridTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E46C75156136E800360ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E46C7D156136E800360ECE /* UIKit.framework in Frameworks */,
+				44E46C7F156136E800360ECE /* Foundation.framework in Frameworks */,
+				44E46C81156136E800360ECE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E46C95156136E800360ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E46C9B156136E800360ECE /* SenTestingKit.framework in Frameworks */,
+				44E46C9C156136E800360ECE /* UIKit.framework in Frameworks */,
+				44E46C9D156136E800360ECE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E46C6D156136E800360ECE = {
+			isa = PBXGroup;
+			children = (
+				44E46C82156136E800360ECE /* TapAndDragTextViewToGrid */,
+				44E46CA0156136E800360ECE /* TapAndDragTextViewToGridTests */,
+				44E46C7B156136E800360ECE /* Frameworks */,
+				44E46C79156136E800360ECE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44E46C79156136E800360ECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E46C78156136E800360ECE /* TapAndDragTextViewToGrid.app */,
+				44E46C99156136E800360ECE /* TapAndDragTextViewToGridTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E46C7B156136E800360ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E46C7C156136E800360ECE /* UIKit.framework */,
+				44E46C7E156136E800360ECE /* Foundation.framework */,
+				44E46C80156136E800360ECE /* CoreGraphics.framework */,
+				44E46C9A156136E800360ECE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44E46C82156136E800360ECE /* TapAndDragTextViewToGrid */ = {
+			isa = PBXGroup;
+			children = (
+				44E46C8B156136E800360ECE /* AppDelegate.h */,
+				44E46C8C156136E800360ECE /* AppDelegate.m */,
+				44E46C8E156136E800360ECE /* MainStoryboard.storyboard */,
+				44E46C91156136E800360ECE /* ViewController.h */,
+				44E46C92156136E800360ECE /* ViewController.m */,
+				44E46C83156136E800360ECE /* Supporting Files */,
+			);
+			path = TapAndDragTextViewToGrid;
+			sourceTree = "<group>";
+		};
+		44E46C83156136E800360ECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E46C84156136E800360ECE /* TapAndDragTextViewToGrid-Info.plist */,
+				44E46C85156136E800360ECE /* InfoPlist.strings */,
+				44E46C88156136E800360ECE /* main.m */,
+				44E46C8A156136E800360ECE /* TapAndDragTextViewToGrid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44E46CA0156136E800360ECE /* TapAndDragTextViewToGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E46CA6156136E800360ECE /* TapAndDragTextViewToGridTests.h */,
+				44E46CA7156136E800360ECE /* TapAndDragTextViewToGridTests.m */,
+				44E46CA1156136E800360ECE /* Supporting Files */,
+			);
+			path = TapAndDragTextViewToGridTests;
+			sourceTree = "<group>";
+		};
+		44E46CA1156136E800360ECE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E46CA2156136E800360ECE /* TapAndDragTextViewToGridTests-Info.plist */,
+				44E46CA3156136E800360ECE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E46C77156136E800360ECE /* TapAndDragTextViewToGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E46CAB156136E800360ECE /* Build configuration list for PBXNativeTarget "TapAndDragTextViewToGrid" */;
+			buildPhases = (
+				44E46C74156136E800360ECE /* Sources */,
+				44E46C75156136E800360ECE /* Frameworks */,
+				44E46C76156136E800360ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapAndDragTextViewToGrid;
+			productName = TapAndDragTextViewToGrid;
+			productReference = 44E46C78156136E800360ECE /* TapAndDragTextViewToGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44E46C98156136E800360ECE /* TapAndDragTextViewToGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E46CAE156136E800360ECE /* Build configuration list for PBXNativeTarget "TapAndDragTextViewToGridTests" */;
+			buildPhases = (
+				44E46C94156136E800360ECE /* Sources */,
+				44E46C95156136E800360ECE /* Frameworks */,
+				44E46C96156136E800360ECE /* Resources */,
+				44E46C97156136E800360ECE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E46C9F156136E800360ECE /* PBXTargetDependency */,
+			);
+			name = TapAndDragTextViewToGridTests;
+			productName = TapAndDragTextViewToGridTests;
+			productReference = 44E46C99156136E800360ECE /* TapAndDragTextViewToGridTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E46C6F156136E800360ECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = self;
+			};
+			buildConfigurationList = 44E46C72156136E800360ECE /* Build configuration list for PBXProject "TapAndDragTextViewToGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44E46C6D156136E800360ECE;
+			productRefGroup = 44E46C79156136E800360ECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E46C77156136E800360ECE /* TapAndDragTextViewToGrid */,
+				44E46C98156136E800360ECE /* TapAndDragTextViewToGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E46C76156136E800360ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E46C87156136E800360ECE /* InfoPlist.strings in Resources */,
+				44E46C90156136E800360ECE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E46C96156136E800360ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E46CA5156136E800360ECE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44E46C97156136E800360ECE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E46C74156136E800360ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E46C89156136E800360ECE /* main.m in Sources */,
+				44E46C8D156136E800360ECE /* AppDelegate.m in Sources */,
+				44E46C93156136E800360ECE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E46C94156136E800360ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E46CA8156136E800360ECE /* TapAndDragTextViewToGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E46C9F156136E800360ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E46C77156136E800360ECE /* TapAndDragTextViewToGrid */;
+			targetProxy = 44E46C9E156136E800360ECE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44E46C85156136E800360ECE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E46C86156136E800360ECE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44E46C8E156136E800360ECE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E46C8F156136E800360ECE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		44E46CA3156136E800360ECE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E46CA4156136E800360ECE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44E46CA9156136E800360ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44E46CAA156136E800360ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E46CAC156136E800360ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapAndDragTextViewToGrid/TapAndDragTextViewToGrid-Prefix.pch";
+				INFOPLIST_FILE = "TapAndDragTextViewToGrid/TapAndDragTextViewToGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44E46CAD156136E800360ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapAndDragTextViewToGrid/TapAndDragTextViewToGrid-Prefix.pch";
+				INFOPLIST_FILE = "TapAndDragTextViewToGrid/TapAndDragTextViewToGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44E46CAF156136E800360ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapAndDragTextViewToGrid.app/TapAndDragTextViewToGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapAndDragTextViewToGrid/TapAndDragTextViewToGrid-Prefix.pch";
+				INFOPLIST_FILE = "TapAndDragTextViewToGridTests/TapAndDragTextViewToGridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		44E46CB0156136E800360ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapAndDragTextViewToGrid.app/TapAndDragTextViewToGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapAndDragTextViewToGrid/TapAndDragTextViewToGrid-Prefix.pch";
+				INFOPLIST_FILE = "TapAndDragTextViewToGridTests/TapAndDragTextViewToGridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E46C72156136E800360ECE /* Build configuration list for PBXProject "TapAndDragTextViewToGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E46CA9156136E800360ECE /* Debug */,
+				44E46CAA156136E800360ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E46CAB156136E800360ECE /* Build configuration list for PBXNativeTarget "TapAndDragTextViewToGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E46CAC156136E800360ECE /* Debug */,
+				44E46CAD156136E800360ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44E46CAE156136E800360ECE /* Build configuration list for PBXNativeTarget "TapAndDragTextViewToGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E46CAF156136E800360ECE /* Debug */,
+				44E46CB0156136E800360ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44E46C6F156136E800360ECE /* Project object */;
+}

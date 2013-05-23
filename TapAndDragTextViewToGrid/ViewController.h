@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIGestureRecognizerDelegate>
+{
+    UITextView *textview;
+}
+@property (nonatomic, retain) UITextView *textview;
+- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;
 
 @end

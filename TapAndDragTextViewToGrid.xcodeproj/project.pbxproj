@@ -20,6 +20,7 @@
 		44E46C9D156136E800360ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E46C7E156136E800360ECE /* Foundation.framework */; };
 		44E46CA5156136E800360ECE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44E46CA3156136E800360ECE /* InfoPlist.strings */; };
 		44E46CA8156136E800360ECE /* TapAndDragTextViewToGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E46CA7156136E800360ECE /* TapAndDragTextViewToGridTests.m */; };
+		44E46CB21561374800360ECE /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 44E46CB11561374800360ECE /* ReadMe */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		44E46C7C156136E800360ECE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44E46C7E156136E800360ECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44E46C80156136E800360ECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		44E46C84156136E800360ECE /* TapAndDragTextViewToGrid-Info.plist */ = {isa = PBXFileReference; path = "TapAndDragTextViewToGrid-Info.plist"; sourceTree = "<group>"; };
+		44E46C84156136E800360ECE /* TapAndDragTextViewToGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapAndDragTextViewToGrid-Info.plist"; sourceTree = "<group>"; };
 		44E46C86156136E800360ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44E46C88156136E800360ECE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44E46C8A156136E800360ECE /* TapAndDragTextViewToGrid-Prefix.pch */ = {isa = PBXFileReference; path = "TapAndDragTextViewToGrid-Prefix.pch"; sourceTree = "<group>"; };
-		44E46C8B156136E800360ECE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		44E46C8A156136E800360ECE /* TapAndDragTextViewToGrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapAndDragTextViewToGrid-Prefix.pch"; sourceTree = "<group>"; };
+		44E46C8B156136E800360ECE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44E46C8C156136E800360ECE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44E46C8F156136E800360ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		44E46C91156136E800360ECE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		44E46C91156136E800360ECE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		44E46C92156136E800360ECE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44E46C99156136E800360ECE /* TapAndDragTextViewToGridTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapAndDragTextViewToGridTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E46C9A156136E800360ECE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		44E46CA2156136E800360ECE /* TapAndDragTextViewToGridTests-Info.plist */ = {isa = PBXFileReference; path = "TapAndDragTextViewToGridTests-Info.plist"; sourceTree = "<group>"; };
+		44E46CA2156136E800360ECE /* TapAndDragTextViewToGridTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapAndDragTextViewToGridTests-Info.plist"; sourceTree = "<group>"; };
 		44E46CA4156136E800360ECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		44E46CA6156136E800360ECE /* TapAndDragTextViewToGridTests.h */ = {isa = PBXFileReference; path = TapAndDragTextViewToGridTests.h; sourceTree = "<group>"; };
+		44E46CA6156136E800360ECE /* TapAndDragTextViewToGridTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapAndDragTextViewToGridTests.h; sourceTree = "<group>"; };
 		44E46CA7156136E800360ECE /* TapAndDragTextViewToGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapAndDragTextViewToGridTests.m; sourceTree = "<group>"; };
+		44E46CB11561374800360ECE /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				44E46C8B156136E800360ECE /* AppDelegate.h */,
 				44E46C8C156136E800360ECE /* AppDelegate.m */,
 				44E46C8E156136E800360ECE /* MainStoryboard.storyboard */,
+				44E46CB11561374800360ECE /* ReadMe */,
 				44E46C91156136E800360ECE /* ViewController.h */,
 				44E46C92156136E800360ECE /* ViewController.m */,
 				44E46C83156136E800360ECE /* Supporting Files */,
@@ -224,6 +227,7 @@
 			files = (
 				44E46C87156136E800360ECE /* InfoPlist.strings in Resources */,
 				44E46C90156136E800360ECE /* MainStoryboard.storyboard in Resources */,
+				44E46CB21561374800360ECE /* ReadMe in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
